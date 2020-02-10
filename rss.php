@@ -1,6 +1,6 @@
 <?php
 $domOBJ = new DOMDocument();
-$domOBJ->load("https://Theresaandrea.herokuapp.com/");
+$domOBJ->load("https://Theresaandrea/andyalunan.herokuapp.com/");
 
 $content = $domOBJ->getElementsByTagName("item");
 
